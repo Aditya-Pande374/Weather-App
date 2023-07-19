@@ -1,0 +1,88 @@
+hmtl{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: "Monstserrat", sans-serif;
+    background-color: #f7f7f7;
+}
+
+.container{
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(100,100,0,.2);
+    margin: 50px auto;
+    text-align: center;
+    max-width: 600px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"]{
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 60%;
+}
+
+form input[type="submit"]{
+    background-color: #007bff;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    cursor:pointer;
+    outline: none;
+    transition: background-color .3s ease;
+}
+
+form input[type="submit"]:hover{
+    background-color: #0267d3;
+}
+
+.icon{
+    margin-bottom: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.temperature{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.description{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details>div{
+    margin: 0 10px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    flex:1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#weather-icon{
+    color: rgb(30,48,86);
+}
